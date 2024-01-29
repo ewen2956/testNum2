@@ -11,3 +11,11 @@ Sur STM32CUBEIDE :
   #ifndef : évite l'inclusion multiple
   void Error_Handler(void); : Prototype
   
+Interruptions : 
+
+UART-->NVIC-->CPU
+GPIO-->NVIC-->CPU
+I2C-->--NVIC-->CPU
+SPI-->NVIC-->CPU
+
+Fonctions callback (appelée automatiquement)

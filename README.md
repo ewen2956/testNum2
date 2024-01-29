@@ -18,4 +18,6 @@ GPIO-->NVIC-->CPU
 I2C-->--NVIC-->CPU
 SPI-->NVIC-->CPU
 
+Nommées IT
+
 Fonctions callback (appelée automatiquement)

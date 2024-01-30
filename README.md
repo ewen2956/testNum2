@@ -21,3 +21,4 @@ SPI-->NVIC-->CPU
 Nommées IT
 
 Fonctions callback (appelée automatiquement)
+MAIN puis Réorganiser le code en .c et .h

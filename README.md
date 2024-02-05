@@ -42,8 +42,24 @@ led (0 et 15)
 valeur (0 ou 1)
 
 
-
-
-
-
 1: temps d'échantillonage, le nombre de bits sur lequel on travaille, la fréquence.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Configuration de l'ADC :
+
+Dans le MX :
+PA1 : Single ended (1 signal utilisé) /ADC1
+
+
+		HAL_ADC_Start(&hadc1);
+		HAL_ADC_PollForConversion(&hadc1, HAL_MAX_DELAY)
+		uint16_t adc_
+
+
+
+4096/8 --> 512 On divise par 512
+uint8_t led = adc_data/512
+
+for (int i = 0; i<8; i++){
+
+
+}
